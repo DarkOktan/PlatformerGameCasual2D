@@ -26,7 +26,7 @@ public class AutoPlay : MonoBehaviour
         {
             Data.score = 0;
             EnemyController.EnemyKilled = 0;
-            SceneManager.LoadScene("Gameplay");
+            SceneManager.LoadScene("Gameplay 1");
         }
     }
 }

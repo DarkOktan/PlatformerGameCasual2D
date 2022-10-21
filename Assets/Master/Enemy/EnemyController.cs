@@ -53,7 +53,6 @@ public class EnemyController : MonoBehaviour
             Destroy(this.gameObject, 2);
             Data.score += 20;
             EnemyKilled++;
-           
             
             //if (EnemyKilled == 3)
             //{

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -155,6 +156,7 @@ public class PlayerController : MonoBehaviour
         if (collision.transform.tag.Equals("Enemy"))
         {
             _isDead = true;
+            SceneManager.LoadScene("GameOver");
         }
         
         if (collision.transform.tag.Equals("Coin"))
